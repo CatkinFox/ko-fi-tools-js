@@ -1,0 +1,19 @@
+.powered-by-kofi-tools {
+	display: block!important;
+	opacity: 1!important;
+	z-index: 999!important;
+	position: absolute!important;
+	color: #ffff!important;
+	padding: 20px!important;
+	border-radius: 40px!important;
+	background: #ff6383!important;
+}
+
+.powered-by-kofi-tools a {
+	color: #fff!important;
+}
+
+.powered-by-kofi-tools p {
+	padding: 0px!important;
+	margin: 0px!important;
+}

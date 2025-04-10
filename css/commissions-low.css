@@ -1,0 +1,27 @@
+ .kofi-commissions-container {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+     gap: 10px;
+     justify-content: center;
+     
+ }
+
+.kofi-commissions-item {
+        padding: 20px;
+        box-sizing: border-box;
+        position: relative;
+}
+
+.kofi-commissions-item img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .kofi-commissions-container {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+        
+    }
+    
+}

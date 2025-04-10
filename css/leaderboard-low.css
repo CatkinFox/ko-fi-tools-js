@@ -1,0 +1,86 @@
+.kofi-leaderboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.kofi-leaderboard-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.kofi-leaderboard-header a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+.kofi-leaderboard-curator-profile {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.kofi-leaderboard-header h2 {
+    margin: 0;
+}
+
+.kofi-leaderboard-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.kofi-leaderboard-item {
+    text-align: center;
+    padding: 10px;
+}
+
+.kofi-leaderboard-item a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.kofi-leaderboard-supporter-order {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.kofi-leaderboard-supporter-profile {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.kofi-leaderboard-supporter-name {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.error-message, .kofi-leaderboard-loading {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .kofi-leaderboard-list {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+}

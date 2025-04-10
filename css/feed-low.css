@@ -1,0 +1,55 @@
+/* feed-low.css */
+
+.kofi-feed-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.kofi-feed-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.kofi-feed-item {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.feed-title {
+  margin: 0 0 8px;
+  font-weight: bold;
+}
+.feed-description {
+  margin: 0 0 8px;
+}
+
+.feed-image {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+.feed-locked-message {
+  text-align: center;
+}
+
+.view-post-button {
+}
+
+.feed-like-count,
+.feed-comment-count {
+  margin: 2px 0;
+}
+
+.kofi-feed-load-more,
+.error-message,
+.powered-by {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 0.9rem;
+}
